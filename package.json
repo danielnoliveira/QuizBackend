@@ -1,0 +1,9 @@
+{
+  "name": "QuizBackend",
+  "version": "0.0.0",
+  "description": "Backend para envio de questões para ser utilizados em chatbot de quiz ",
+  "main": "index.js",
+  "repository": "https://github.com/danielnoliveira/QuizBackend.git",
+  "author": "Daniel Nogueira de Oliveira",
+  "license": "MIT"
+}
