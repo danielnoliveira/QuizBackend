@@ -19,5 +19,10 @@ module.exports = {
         }
         const [id] = await connection('questions').insert(row);
         return res.status(200).json({id});
+    },
+    getQuiz: async (req,res)=>{
+        const {question_quant} = req.body;
+        const quiz = await connection('questions').select().limit(question_quant);
+        return res.status(200).json({quiz});
     }
 }
